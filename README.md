@@ -163,7 +163,17 @@ Tested on **DBMS textbook** (chapters 1–10), 21 questions — 18 in-scope + 3 
 | Citations present | — / 18 |
 | Guardrail correct | — / 3 |
 
-*Fill in after running eval in Week 3.*
+
+## Status
+- [x] PDF ingestion and chunking (ingest.py)
+- [x] BGE-small embeddings stored in ChromaDB (embed.py)
+- [x] BM25 + dense hybrid retrieval with RRF (retrieve.py)
+- [x] Groq Llama 3.1 generation with citations (generate.py)
+- [x] Out-of-corpus guardrail working
+- [x] Streamlit chat UI with Compare Two Docs mode
+- [ ] Unit tests (Week 3)
+- [ ] 21-question eval (Week 3)
+- [ ] Deployed live URL (Week 3)
 
 Full details → [docs/eval_report.md](docs/eval_report.md)
 

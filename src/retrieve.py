@@ -14,7 +14,7 @@ from src.embed import dense_retrieve
 
 
 RRF_K      = 60     # standard RRF constant
-MIN_SCORE  = 0.25   # below this → we tell user "I don't know"
+MIN_SCORE  = 0.15   # below this → we tell user "I don't know"
 TOP_K_EACH = 10     # retrieve 10 from each method, then merge to top-5
 
 

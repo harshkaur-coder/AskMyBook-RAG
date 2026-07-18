@@ -5,9 +5,12 @@ Run with:  streamlit run app.py
 """
 
 import streamlit as st
+if "GROQ_API_KEY" in st.secrets:
+    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 import os
 import tempfile
 from dotenv import load_dotenv
+
 from src.pipeline import AskMyBook
 
 load_dotenv()

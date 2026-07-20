@@ -159,9 +159,9 @@ Tested on **DBMS textbook** (chapters 1–10), 21 questions — 18 in-scope + 3 
 
 | Metric | Score |
 |--------|-------|
-| Correct answers | — / 18 |
-| Citations present | — / 18 |
-| Guardrail correct | — / 3 |
+| Correct answer |16/ 18 |
+| Citations present | 17/ 18 |
+| Guardrail correct | 3/ 3 |
 
 
 ## Status

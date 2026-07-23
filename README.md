@@ -14,7 +14,7 @@ AI-powered PDF Question Answering System using RAG, ChromaDB, LangChain and Stre
 
 ## Demo
 
-🎬 [Watch 3-min Loom walkthrough](YOUR_LOOM_URL_HERE)
+🎬 [Watch 3-min Loom walkthrough](https://www.loom.com/share/be49b49f2a234f6784284842a9ee08e6)
 
 🌐 [Try the live app](YOUR_STREAMLIT_URL_HERE)
 
